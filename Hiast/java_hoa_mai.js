@@ -1,9 +1,9 @@
 var pictureSrc ="http://www.hiast.edu.vn/homepage/images/JavaScript/hoamai.png"; //the location of the Leopard
-var pictureWidth = 10; //the width of the Leopard
-var pictureHeight = 10; //the height of the Leopard
-var numFlakes = 5; //the number of Leopard
+var pictureWidth = 15; //the width of the Leopard
+var pictureHeight = 15; //the height of the Leopard
+var numFlakes = 7; //the number of Leopard
 var downSpeed = 0.01; //the falling speed of Leopard (portion of screen per 100 ms)
-var lrFlakes = 5; //the speed that the Leopard should swing from side to side
+var lrFlakes = 10; //the speed that the Leopard should swing from side to side
 
 
 if( typeof( numFlakes ) != 'number' || Math.round( numFlakes ) != numFlakes || numFlakes < 1 ) { numFlakes = 10; }
